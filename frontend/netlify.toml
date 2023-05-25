@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "https://main--leafy-kitsune-7c6fbe.netlify.app/api/v1"
-  to = "https://krunt.onrender.com/api/v1"
+  from = "/api/v1/*"
+  to = "https://krunt.onrender.com/api/v1/:splat"
   status = 200
