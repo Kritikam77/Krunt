@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/api/v1/login"
-  to = "https://krunt.onrender.com/api/v1/login"
+  from = "/api/v1"
+  to = "https://krunt.onrender.com/api/v1"
   status = 200
