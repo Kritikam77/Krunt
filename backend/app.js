@@ -15,10 +15,10 @@ app.use(cookieParser());
 app.use(cors());
 
 // for cors
-app.get('/',(req,res)=>{
-  res.setHeader("Access-Control-Allow-Credentials","true");
-  res.send("API is running..")
-})
+// app.get('/',(req,res)=>{
+//   res.setHeader("Access-Control-Allow-Credentials","true");
+//   res.send("API is running..")
+// })
 
 // Importing Routes
 const post = require("./routes/post");
